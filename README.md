@@ -32,14 +32,29 @@ The dataset can be found on the Stanford University [website](https://web.stanfo
 
 # I/Defining the goal:
 
-By training several models on the given data. Our goal is to find the best and worst predictors for survival. 
+The Titanic was a British passenger liner that sank in 1912. Carrying more than 2 200 passengers on board, the boat never made it to its final destination, New York City.
+This event had a massive impact on our modern culture. The infamous James Cameron movie always made me wonder about the nature of the profiles who survived.<br>
+Who were they?
+
+Today, we will answer this question by analyzing the given data.
+
+What made the Titanic survivor so special? 
+
+Using diverse machine learning techniques, this project will aim at defining the best and worst predictors of survival according to the dataset. 
 
 # II/Data Wrangling: 
 
+After importing libraries and setting the directory.<br>
 Our first task is to look for missing values. 
+
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/e549c964-860f-40be-a866-e036c66630f4)
+
 
 Since the data has a binary outcome, we will use logistic regression.
 In order to prepare our data for the regression we need to convert some string value into numerical. 
+
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/5d68d726-ebad-4b53-9a80-ef6c1c1105bf)
+
 
 # III/ Analysis:
 
