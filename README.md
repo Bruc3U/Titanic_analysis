@@ -36,7 +36,10 @@ By training several models on the given data. Our goal is to find the best and w
 
 # II/Data Wrangling: 
 
+Our first task is to look for missing values. 
 
+Since the data has a binary outcome, we will use logistic regression.
+In order to prepare our data for the regression we need to convert some string value into numerical. 
 
 # III/ Analysis:
 
