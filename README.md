@@ -12,18 +12,24 @@
 
 ## Objective
 
+Our goal is to find the predictors for survivability during the Titanic tragedy using machine learning.
 
 
 ## About the dataset
 
+The dataset records attributes from several passengers. 
 
-| Dataset Limitation | 
-|---|
+- Port of Departure
+- Age
+- Sex
+- Number of children
+- Port of entry
 
-
+The dataset can be found on the Stanford University [website](https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/problem12.html).
 
 # I/Defining the goal:
 
+By training several models on the given data. Our goal is to find the optimal profile 
 
 # II/Data Wrangling: 
 
