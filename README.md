@@ -17,19 +17,22 @@ Our goal is to find the predictors for survivability during the Titanic tragedy 
 
 ## About the dataset
 
-The dataset records attributes from several passengers. 
+The dataset records attributes from 888 passengers. It features:
 
-- Port of Departure
-- Age
+- Passenger ID
+- Survived
+- Passenger class
+- Name
 - Sex
-- Number of children
-- Port of entry
+- Age
+- Siblings aboard
+- Parents aboard
 
 The dataset can be found on the Stanford University [website](https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/problem12.html).
 
 # I/Defining the goal:
 
-By training several models on the given data. Our goal is to find the optimal profile 
+By training several models on the given data. Our goal is to find the best and worst predictors for survival. 
 
 # II/Data Wrangling: 
 
