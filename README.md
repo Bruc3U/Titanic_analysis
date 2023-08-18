@@ -55,9 +55,14 @@ In order to prepare our data for the regression we need to convert some string v
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/5d68d726-ebad-4b53-9a80-ef6c1c1105bf)
 
+For our final step before building the first model, we will separate our data into a train/test dataset. 
+
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/a17fee99-2f92-4be2-9e27-ed0c170be7a0)
+
 
 # III/ Analysis:
 
+As stated previously, we will use a logistic regression algorithm. 
 
 # Conclusion
 
