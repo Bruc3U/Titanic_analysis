@@ -124,10 +124,11 @@ Using the logistic regression from Statsmodel
 | 1 | Pclass + Sex + Age + Fare + S_Ob + Pc_Ob + Embarked_P | 79%  |  
 | 2 | Pclass + Sex + Age + S_Ob + Pc_Ob | 78%  |
 
-Confusion matrix for the test sample model 1
+Confusion matrix for the test sample model 1<br>
+
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/cdd40409-ab2c-4986-9607-335f9cbda872)
 
-Confusion matrix for the test sample model 2
+Confusion matrix for the test sample model 2<br>
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/cc79497e-f5ba-4efa-93da-339583467c1f)
 
