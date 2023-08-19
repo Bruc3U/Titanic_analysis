@@ -61,20 +61,44 @@ In order to prepare our data for the regression we need to convert some string v
 
 
 # III/ Analysis:
+### A/Overall Analysis
+In order to survive in a stressful situation some factors are more important than others.<br>
+Our goal is to determine which feature will be detrimental to the survival of these passengers. 
 
-To get an idea of how the data is structured, we will plot some of its features.
-
-Let's first take a look at the age range of the passengers.
+Let's first take a look at the first feature, age: 
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/f5b72b11-ee6f-4d67-9d33-21363340921d)
 
-As we can see, most of the individuals were between 15 and 35 years old. 
+As we can see, most of the individuals were between 15 and 35 years old. Quite a young crowd.
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/989552b9-05d6-43ac-bdb5-6cc8775e055b)
 
+Now, let's take a look at gender disparities. 
+
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/3b801cc6-0548-4859-b623-9a4a8749f416)
+
+It seems that most passengers were males.<br>
+Since the Titanic was a cruise ship per se, individuals had the choice between 3 classes. The first class is the most luxurious one.<br>
+Let's move on to our next attribute, class: 
+
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/7f934102-631a-489a-969f-f4fcb8ab8106)
+
+We can observe without surprise that most passengers were in the 3rd class which is the most affordable. 
+
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/5cb0d6b1-a1c1-4383-8a50-172a821a6b31)
+
+Regarding the amount shown on the graph, it is important to note that 80USD in 1912 is more or less equal to 2500USD in 2023. Quite an expense.<br> 
+After taking a look at some important features. A question arises, do those attributes have that much of an impact on personal survival? 
+
+Gender seems to have a detrimental impact on survival. 
+
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/62b2b9b0-4c81-4680-a19b-3e1253232434)
 
 
 
+
+
+### B/Models
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/580a642e-4904-462f-a8f6-ab47cea29ac9)
 
 
