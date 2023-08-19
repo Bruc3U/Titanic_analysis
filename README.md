@@ -47,22 +47,36 @@ Using diverse machine learning techniques, this project will aim at defining the
 After importing libraries and setting the directory.<br>
 Our first task is to look for missing values. 
 
-![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/e549c964-860f-40be-a866-e036c66630f4)
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/5de51b9d-c579-4822-af63-5180d0ba7f07)
+
 
 
 Since the data has a binary outcome, we will use logistic regression.
 In order to prepare our data for the regression we need to convert some string value into numerical. 
 
-![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/5d68d726-ebad-4b53-9a80-ef6c1c1105bf)
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/24fa8bac-4510-4fa3-a260-0aa4abbedbc2)
 
-For our final step before building the first model, we will separate our data into a train/test dataset. 
 
-![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/a17fee99-2f92-4be2-9e27-ed0c170be7a0)
+
 
 
 # III/ Analysis:
 
-As stated previously, we will use a logistic regression algorithm. 
+To get an idea of how the data is structured, we will plot some of its features.
+
+Let's first take a look at the age range of the passengers.
+
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/f5b72b11-ee6f-4d67-9d33-21363340921d)
+
+As we can see, most of the individuals were between 15 and 35 years old. 
+
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/989552b9-05d6-43ac-bdb5-6cc8775e055b)
+
+
+
+
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/580a642e-4904-462f-a8f6-ab47cea29ac9)
+
 
 # Conclusion
 
