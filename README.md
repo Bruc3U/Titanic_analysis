@@ -108,14 +108,24 @@ The gender distribution in the first class is as excepted, males are not a minor
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/e290b29b-1125-4c87-b931-0e123189c501)
 
 From the data analyzed in this part, we can already draw conclusions on the best and worst profiles.<br>
-It seems that the best profile for surviving, would be to be a young wealthy female.<br>
+It seems that the best profile for survival would be to be a young wealthy female.<br>
 
 Let's see if building a machine-learning model will change our expectations.
 
 ### B/Models
 
+To optimize our model building, we will create two models with different attributes to maximize our accuracy.<br>
+Once both models are evaluated, we will choose the most accurate one and use it to find the best and worst profiles. 
 
-![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/580a642e-4904-462f-a8f6-ab47cea29ac9)
+| Model| Independant Variable| Test Accuracy| 
+|---|---|---|
+| 1 | Pclass + Sex + Age + Fare + S_Ob + Pc_Ob + Embarked_P | 79%  |  
+| 2 | Pclass + Sex + Age + S_Ob + Pc_Ob | 78%  |
+
+
+
+
+
 
 
 # Conclusion
