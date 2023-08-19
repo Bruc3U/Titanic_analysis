@@ -117,16 +117,27 @@ Let's see if building a machine-learning model will change our expectations.
 To optimize our model building, we will create two models with different attributes to maximize our accuracy.<br>
 Once both models are evaluated, we will choose the most accurate one and use it to find the best and worst profiles. 
 
+Using the logistic regression from Statsmodel
+
 | Model| Independant Variable| Test Accuracy| 
 |---|---|---|
 | 1 | Pclass + Sex + Age + Fare + S_Ob + Pc_Ob + Embarked_P | 79%  |  
 | 2 | Pclass + Sex + Age + S_Ob + Pc_Ob | 78%  |
 
+Confusion matrix for the test sample model 1
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/cdd40409-ab2c-4986-9607-335f9cbda872)
+
+Confusion matrix for the test sample model 2
+
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/cc79497e-f5ba-4efa-93da-339583467c1f)
 
 
+The first model is more accurate and has a better confusion matrix. We will therefore choose the first model. 
+To find the best profiles we will use the coefficient from the Regression Results table. 
 
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/37feaac4-994b-4b6f-831c-d5556773c89c)
 
-
+Using the formula for linear regression: Y=mX + b and the solver feature in Excel. 
 
 # Conclusion
 
