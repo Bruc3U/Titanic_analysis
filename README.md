@@ -94,9 +94,18 @@ Gender seems to have a detrimental impact on survival.
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/62b2b9b0-4c81-4680-a19b-3e1253232434)
 
-![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/55583668-183b-417b-ac51-7d6904889346)
+74% of the females survived. While only 19% of the males survived. As seen previously most of the passenger were males and yet they remained a minority. 
 
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/119d9691-628a-4fe9-9350-5f045ac1c18c)
 
+Another factor of survival is the class the passenger were in. We can see that being in the first class is a significant advantage with 63% of individual surviving. 
+Since the odds of surviving in first calss are quite important, we must check the gender distribution in this class in order to avoid any data bias. 
+
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/32a29f85-dae4-474e-8814-aabe8830e234)
+
+The gender distribution in the first class is as excepted, males are not a minority. 
+
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/e290b29b-1125-4c87-b931-0e123189c501)
 
 
 ### B/Models
