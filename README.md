@@ -94,6 +94,7 @@ Gender seems to have a detrimental impact on survival.
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/62b2b9b0-4c81-4680-a19b-3e1253232434)
 
+![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/55583668-183b-417b-ac51-7d6904889346)
 
 
 
