@@ -56,9 +56,13 @@ In order to prepare our data for the regression we need to convert some string v
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/24fa8bac-4510-4fa3-a260-0aa4abbedbc2)
 
-
-
-
+| String Value Conversion Table  | 
+|---|
+| Males = 1 |
+| Females = 0 |
+| Embarked_P C = 1 |
+| Embarked_P S = 2 |
+| Embarked_P Q = 3 |
 
 # III/ Analysis:
 ### A/Overall Analysis
@@ -138,7 +142,13 @@ To find the best profiles we will use the coefficient from the Regression Result
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/37feaac4-994b-4b6f-831c-d5556773c89c)
 
-Using the formula for linear regression: Y=mX + b and the solver feature in Excel. 
+The formula for linear regression is a useful tool to predict values using the data from the Regression Results table.<br>
+linear regression: Y=mX + b 
+
+This formula is also useful to understand the relationship between coefficients. For instance,  higher the final coefficient, the better your chances are at surviving.
+If we follow that logic, being a male will lower our final coefficient score. Since 1 * -2.77 < 0 * -2.77 
+
+and the solver feature in Excel. 
 
 # Conclusion
 
