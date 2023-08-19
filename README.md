@@ -108,17 +108,13 @@ The gender distribution in the first class is as excepted, males are not a minor
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/e290b29b-1125-4c87-b931-0e123189c501)
 
 From the data analyzed in this part, we can already draw conclusions on the best and worst profiles.<br>
+It seems that the best profile for surviving, would be to be a young wealthy female.<br>
 
-| Best/Worst features for survival | 
-|---|---|
-| Good Attribute  | Bad Attribute |
-| Younger Age | Older |
-|  Class 1 | Class 3 |
-| Female | Male |
-
-Let's see if building a machine-learning model will change our expectations or confirm them. 
+Let's see if building a machine-learning model will change our expectations.
 
 ### B/Models
+
+
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/580a642e-4904-462f-a8f6-ab47cea29ac9)
 
 
