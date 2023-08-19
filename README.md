@@ -94,12 +94,12 @@ Gender seems to have a detrimental impact on survival.
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/62b2b9b0-4c81-4680-a19b-3e1253232434)
 
-74% of the females survived. While only 19% of the males survived. As seen previously most of the passenger were males and yet they remained a minority. 
+74% of the females survived. While only 19% of the males survived. As seen previously most of the passengers were males and yet they remained a minority. 
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/119d9691-628a-4fe9-9350-5f045ac1c18c)
 
-Another factor of survival is the class the passenger were in. We can see that being in the first class is a significant advantage with 63% of individual surviving. 
-Since the odds of surviving in first calss are quite important, we must check the gender distribution in this class in order to avoid any data bias. 
+Another factor of survival is the class the passenger was in. We can see that being in the first class is a significant advantage with 63% of individuals surviving. 
+Since the odds of surviving in first class are quite important, we must check the gender distribution in this class in order to avoid any data bias. 
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/32a29f85-dae4-474e-8814-aabe8830e234)
 
@@ -107,6 +107,16 @@ The gender distribution in the first class is as excepted, males are not a minor
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/e290b29b-1125-4c87-b931-0e123189c501)
 
+From the data analyzed in this part, we can already draw conclusions on the best and worst profiles.<br>
+
+| Best/Worst features for survival | 
+|---|---|
+| Good Attribute  | Bad Attribute |
+| Younger Age | Older |
+|  Class 1 | Class 3 |
+| Female | Male |
+
+Let's see if building a machine-learning model will change our expectations or confirm them. 
 
 ### B/Models
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/580a642e-4904-462f-a8f6-ab47cea29ac9)
