@@ -181,7 +181,7 @@ On another note, the worst profile chooses to have 2 children and 2 parents, thi
 # Conclusion
 The Titanic dataset offers some interesting insights into what features are the most detrimental to survival.<br>
 To survive the Titanic tragedy, one would have more chances if they were a female boarding in Cherbourg France, as young as possible, traveling solo with a high ticket fare and class.<br>
-Alternatively, the most unfavorable situation would be to embark from Queenstown, England, while being advanced in age, accompanied by both children and parents, and occupying the lowest class.
+Alternatively, the most unfavorable situation would be to embark from Queenstown, England, while being a male in advanced age, accompanied by both children and parents and occupying the lowest class.
 
 
 
