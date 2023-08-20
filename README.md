@@ -110,18 +110,18 @@ Gender seems to have a detrimental impact on survival.
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/119d9691-628a-4fe9-9350-5f045ac1c18c)
 
-Another factor of survival is related to the type of class passengers were in. We can see that being in the first class is a significant advantage with 63% of individuals surviving. 
+The passenger's class also plays a role in determining survival rates. We can see that being in the first class, is a significant advantage with 63% of individuals surviving. 
 Since the odds of surviving in first class are quite important, we must check the gender distribution in this class in order to avoid any data bias. 
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/32a29f85-dae4-474e-8814-aabe8830e234)
 
-The gender distribution in the first class is as excepted, males are not a minority. 
+The gender distribution in the first class follows the main trend. Males are the majority. 
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/e290b29b-1125-4c87-b931-0e123189c501)
 
-From the data analyzed in this part, we can already draw conclusions on the best and worst profiles.<br>
-It seems that some attributes such as gender, age, and class have an impact on survival.<br>
-For instance, a wealthy female in the first class will have a better chance of surviving the tragedy compared to an older male in the third class.
+From the data analyzed so far, we can already draw conclusions on the best and worst profiles.<br>
+It seems some attributes such as gender, age, and class have an impact on survival.<br>
+For instance, a wealthy female in the first class will have a better chance of surviving compared to an older male in the third class.
 
 In order to elaborate on this hypothesis, we will build a logistic regression model.
 
