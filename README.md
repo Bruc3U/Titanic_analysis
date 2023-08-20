@@ -60,8 +60,8 @@ The table below will summarize every change made to the data:
 
 | String Value Conversion Table  | 
 |---|
-| Males = 1 |
-| Females = 0 |
+| male = 1 |
+| female = 0 |
 | Embarked_P C = 1 |
 | Embarked_P S = 2 |
 | Embarked_P Q = 3 |
