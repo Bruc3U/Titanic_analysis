@@ -161,22 +161,32 @@ Let's look at some examples:
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/880dbe1e-c951-4844-ac08-36622390c9dd)
 
-The poor old man profile and the poor old woman profiles, explains what we explored earlier in our first observations.<br>
-Both profile are identical, except the gender.<br>
-As you can see, the poor old woman has a better survival score.<br>
+The poor old man profile and the poor old woman profiles, explain what we explored earlier in our first observations.<br>
+Both profiles are identical, except for the gender.<br>
+As you can see, the poor old woman has a drastically better survival score.<br>
+It proves that gender is one of the most important survival predictors.
 
-
-
-The range of our Survival Score is between: -7.4 to 5.7.<br>
-This means the best possible profile according to the data limitation can be as high as 5.7.<br>
-
+Another important predictor would be the class. Both Sex and Class have a coefficient of respectively -2.8 and -1.3.<br>
+Other coefficients are below 0, which proves their importance. 
 
 Thanks to the solver feature in Excel we were able to find the Best and Worst profiles. 
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/5f58a158-cb01-444c-979a-7c3564eafee3)
 
 
+The range of our Survival Score is between: -7.4 to 5.7.<br>
+This means the best possible profile according to the data limitation can be as high as 5.7.<br>
+
+
 # Conclusion
+To conclude, the Titanic dataset offers some interesting insight into what features are the most detrimental for survival.<br>
+
+| Top 3 Factors  | 
+|---|
+|Gender of the passenger |
+| Class of the passenger|
+| Fare  |
+
 
 
 
