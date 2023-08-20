@@ -95,7 +95,7 @@ Whereas, the third-class passenger had to share bathrooms and slept in dormitory
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/7f934102-631a-489a-969f-f4fcb8ab8106)
 
-We can observe without surprise that most passengers were in the 3rd class which is the most affordable. 
+We can observe most passengers were in the 3rd class which is the most affordable. 
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/5cb0d6b1-a1c1-4383-8a50-172a821a6b31)
 
