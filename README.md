@@ -99,7 +99,7 @@ We can observe most passengers were in the 3rd class which is the most affordabl
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/5cb0d6b1-a1c1-4383-8a50-172a821a6b31)
 
-Regarding the amount shown on the graph, it is important to note that 80USD in 1912 is more or less equal to 2500USD in 2023. Quite an expense.<br> 
+Regarding the amount shown on the graph, it is important to note that 80$ in 1912 is more or less equal to 2 500$ in 2023. Quite an expense.<br> 
 After taking a look at some important features. A question arises, do these attributes have much of an impact on survival? 
 
 Gender seems to have a detrimental impact on survival. 
