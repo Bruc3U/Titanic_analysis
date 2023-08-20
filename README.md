@@ -169,19 +169,20 @@ It proves that gender is one of the most important survival predictors.
 Another important predictor would be the class. Both Sex and Class have a coefficient of respectively -2.8 and -1.3.<br>
 Other coefficients are below 0, which proves their importance. 
 
-Thanks to the solver feature in Excel we were able to find the Best and Worst profiles. 
+The two profiles on the right named Worst Profile and Best Profile were conducted by the Excel solver. We can see the similarity with the previous estimation.
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/5f58a158-cb01-444c-979a-7c3564eafee3)
 
+For the worst profile, the port of departure number 3 was chosen, and the best profile chooses port number 1.  We can observe that a lower age and a higher class/ticket fare gives more chances of survival as stated earlier.
+On another note, the worst profile chooses to have 2 children and 2 parents, this proves the negative aspect of those features. 
 
-The range of our Survival Score is between: -7.4 to 5.7.<br>
-This means the best possible profile according to the data limitation can be as high as 5.7.<br>
 
 
 # Conclusion
-To conclude, the Titanic dataset offers some interesting insight into what features are the most detrimental for survival.<br>
+To conclude, the Titanic dataset offers some interesting insight into what features are the most detrimental to survival.<br>
+To survive the Titanic tragedy, one would have more chances if they were a female boarding in Cherbourg France, as young as possible, traveling solo with a high ticket fare and class.
 
-| Top 3 Factors  | 
+| Top 3 Attributes  | 
 |---|
 |Gender of the passenger |
 | Class of the passenger|
