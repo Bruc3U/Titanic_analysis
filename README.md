@@ -120,14 +120,14 @@ The gender distribution in the first class follows the main trend. Males are the
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/e290b29b-1125-4c87-b931-0e123189c501)
 
 From the data analyzed so far, we can already draw conclusions on the best and worst profiles.<br>
-It seems some attributes such as gender, age, and class have an impact on survival.<br>
+It seems attributes such as gender, age, and class have an impact on survival.<br>
 For instance, a wealthy female in the first class will have a better chance of surviving compared to an older male in the third class.
 
 In order to elaborate on this hypothesis, we will build a logistic regression model.
 
 ### B/Models
 
-We will create two models with different attributes to maximize our accuracy.<br>
+We will create two models with different features to maximize our accuracy.<br>
 Once both models are evaluated, we will choose the most accurate one and use it to find the best and worst profiles. 
 
 Using the logistic regression from Statsmodel
@@ -155,13 +155,20 @@ To find the best profiles we will use the coefficient from the Regression Result
 The formula for linear regression is a useful tool to predict values using the data from the Regression Results table.<br>
 linear regression: Y=mX + b 
 
-This formula is also useful to understand the relationship between coefficients. This will help us compute a Final Survival Score for each profile.<br>
+This formula is needed to understand the relationship between coefficients. This will help us compute a Final Survival Score for each profile.<br>
 The higher the score the greater chance the individual will have to survive. 
-For instance, let's look at some examples: 
+Let's look at some examples: 
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/880dbe1e-c951-4844-ac08-36622390c9dd)
 
+The poor old man profile and the poor old woman profiles, explains what we explored earlier in our first observations.<br>
+Both profile are identical, except the gender.<br>
+As you can see, the poor old woman has a better survival score.<br>
 
+
+
+The range of our Survival Score is between: -7.4 to 5.7.<br>
+This means the best possible profile according to the data limitation can be as high as 5.7.<br>
 
 
 Thanks to the solver feature in Excel we were able to find the Best and Worst profiles. 
