@@ -33,7 +33,7 @@ The dataset can be found on the Stanford University [website](https://web.stanfo
 # I/Defining the goal:
 
 The Titanic was a British passenger liner that sank in 1912. Carrying more than 2 200 passengers on board, the boat never made it to its final destination, New York City.
-This event had a massive impact on our modern culture. The infamous James Cameron movie always made me wonder about the nature of the profiles who survived.<br>
+This event had a massive impact on our modern culture. The infamous James Cameron movie always made me wonder about the nature of the individuals who survived.<br>
 Who were they?
 
 Today, we will answer this question by analyzing the given data.
