@@ -12,7 +12,7 @@
 
 ## Objective
 
-Our goal is to find the predictors for survivability during the Titanic tragedy using machine learning.
+Our goal is to use machine learning to identify predictors for survivability during the Titanic tragedy. 
 
 
 ## About the dataset
@@ -52,12 +52,11 @@ Our first task is to look for missing values.
 
 
 Since the data has a binary outcome, we will use logistic regression.
-In order to prepare our data for the regression we need to convert some string value into numerical. 
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/24fa8bac-4510-4fa3-a260-0aa4abbedbc2)
 
-Embarked signifies the port of embarkment for each passenger, we had to modify the value for all of the 3 ports.<br>
-For more information refer to the String Value Conversion Table below. 
+In order to prepare our data for the regression we need to convert string values into numerical ones.<br>
+The table below will summarize every change made to the data: 
 
 | String Value Conversion Table  | 
 |---|
@@ -67,9 +66,11 @@ For more information refer to the String Value Conversion Table below.
 | Embarked_P S = 2 |
 | Embarked_P Q = 3 |
 
+Embarked signifies the port of embarkment for each passenger, we had to modify the value for all of the 3 ports.<br>
+The data is finally ready for the next step, analysis. 
+
 # III/ Analysis:
 ### A/Overall Analysis
-In order to survive in a stressful situation some factors are more important than others.<br>
 Our goal is to determine which feature will be detrimental to the survival of these passengers. 
 
 Let's first take a look at the first feature, age: 
@@ -85,8 +86,12 @@ Now, let's take a look at gender disparities.
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/3b801cc6-0548-4859-b623-9a4a8749f416)
 
 It seems that most passengers were males.<br>
-Since the Titanic was a cruise ship per se, individuals had the choice between 3 classes. The first class is the most luxurious one.<br>
+
 Let's move on to our next attribute, class: 
+
+The Titanic offered 3 classes, each passenger would get a different treatment depending on their class.<br>
+For instance, the first class resembled more of a high-end luxury trip with private bedrooms and bathrooms.<br>
+Whereas, the third-class passenger had to share bathrooms and slept in dormitory-style cabins. 
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/7f934102-631a-489a-969f-f4fcb8ab8106)
 
@@ -95,17 +100,17 @@ We can observe without surprise that most passengers were in the 3rd class which
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/5cb0d6b1-a1c1-4383-8a50-172a821a6b31)
 
 Regarding the amount shown on the graph, it is important to note that 80USD in 1912 is more or less equal to 2500USD in 2023. Quite an expense.<br> 
-After taking a look at some important features. A question arises, do those attributes have that much of an impact on personal survival? 
+After taking a look at some important features. A question arises, do these attributes have much of an impact on survival? 
 
 Gender seems to have a detrimental impact on survival. 
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/62b2b9b0-4c81-4680-a19b-3e1253232434)
 
-74% of the females survived. While only 19% of the males survived. As seen previously most of the passengers were males and yet they remained a minority. 
+74% of the females survived. While only 19% of the males survived. As seen previously most of the passengers were males and yet they remained a minority here. 
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/119d9691-628a-4fe9-9350-5f045ac1c18c)
 
-Another factor of survival is the class the passenger was in. We can see that being in the first class is a significant advantage with 63% of individuals surviving. 
+Another factor of survival is related to the type of class passengers were in. We can see that being in the first class is a significant advantage with 63% of individuals surviving. 
 Since the odds of surviving in first class are quite important, we must check the gender distribution in this class in order to avoid any data bias. 
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/32a29f85-dae4-474e-8814-aabe8830e234)
@@ -115,13 +120,14 @@ The gender distribution in the first class is as excepted, males are not a minor
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/e290b29b-1125-4c87-b931-0e123189c501)
 
 From the data analyzed in this part, we can already draw conclusions on the best and worst profiles.<br>
-It seems that the best profile for survival would be to be a young wealthy female.<br>
+It seems that some attributes such as gender, age, and class have an impact on survival.<br>
+For instance, a wealthy female in the first class will have a better chance of surviving the tragedy compared to an older male in the third class.
 
-Let's see if building a machine-learning model will change our expectations.
+In order to elaborate on this hypothesis, we will build a logistic regression model.
 
 ### B/Models
 
-To optimize our model building, we will create two models with different attributes to maximize our accuracy.<br>
+We will create two models with different attributes to maximize our accuracy.<br>
 Once both models are evaluated, we will choose the most accurate one and use it to find the best and worst profiles. 
 
 Using the logistic regression from Statsmodel
@@ -131,6 +137,8 @@ Using the logistic regression from Statsmodel
 | 1 | Pclass + Sex + Age + Fare + S_Ob + Pc_Ob + Embarked_P | 79%  |  
 | 2 | Pclass + Sex + Age + S_Ob + Pc_Ob | 78%  |
 
+Both models will predict the survival column, which in binary, tells us which individual survived. 
+
 Confusion matrix for the test sample model 1<br>
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/cdd40409-ab2c-4986-9607-335f9cbda872)
@@ -138,7 +146,6 @@ Confusion matrix for the test sample model 1<br>
 Confusion matrix for the test sample model 2<br>
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/cc79497e-f5ba-4efa-93da-339583467c1f)
-
 
 The first model is more accurate and has a better confusion matrix. We will therefore choose the first model. 
 To find the best profiles we will use the coefficient from the Regression Results table. 
