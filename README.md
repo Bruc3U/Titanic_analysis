@@ -155,7 +155,7 @@ To find the best profiles we will use the coefficient from the Regression Result
 The formula for linear regression is a useful tool to predict values using the data from the Regression Results table.<br>
 linear regression: Y=mX + b 
 
-This formula is needed to understand the relationship between coefficients. This will help us compute a Final Survival Score for each profile.<br>
+This formula is needed to understand the relationship between coefficients (weights). This will help us compute a Final Survival Score for each profile.<br>
 The higher the score the greater chance the individual will have to survive. 
 Let's look at some examples: 
 
@@ -167,7 +167,7 @@ As you can see, the poor old woman has a drastically better survival score.<br>
 It proves that gender is one of the most important survival predictors.
 
 Another important predictor would be the class. Both Sex and Class have a coefficient of respectively -2.8 and -1.3.<br>
-Other coefficients are below 0, which proves their importance. 
+Other coefficients are closer to  0, which illustrates their diminished weight on the survival score. 
 
 The two profiles on the right named Worst Profile and Best Profile were conducted by the Excel solver. We can see the similarity with the previous estimation.
 
