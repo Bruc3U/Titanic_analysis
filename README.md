@@ -73,7 +73,7 @@ The data is finally ready for the next step, analysis.
 ### A/Overall Analysis
 Our goal is to determine which feature will be detrimental to the survival of these passengers. 
 
-Let's first take a look at the first feature, age: 
+Let's take a look at the first feature, age: 
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/f5b72b11-ee6f-4d67-9d33-21363340921d)
 
