@@ -2,6 +2,16 @@
 
 ![k-mitch-hodge-y-9-X5-4-vU-unsplash](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/bdc6c95c-9ee6-41da-a429-3cb51a7e7a3b)
 
+#Summary:
+- Python Libraries Used
+- Objective
+- About the dataset
+- I/Defining the goal
+- II/Data Wrangling
+- III/ Analysis
+- Conclusion
+
+
 # Python Libraries Used
 
 - pandas
@@ -9,8 +19,6 @@
 - matplotlib
 - statsmodel
 - scikit-learn
-
-# [Dashboard](https://github.com/Bruc3U/Titanic_analysis/blob/main/dashboard_titanic_pdf.pdf)
 
 ## Objective
 
@@ -93,7 +101,7 @@ Let's move on to our next attribute, class:
 
 The Titanic offered 3 classes, each passenger would get a different treatment depending on their class.<br>
 For instance, the first class resembled more of a high-end luxury trip with private bedrooms and bathrooms.<br>
-Whereas, the third-class passenger had to share bathrooms and slept in dormitory-style cabins. 
+Whereas, the third-class passengers had to share bathrooms and slept in dormitory-style cabins. 
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/7f934102-631a-489a-969f-f4fcb8ab8106)
 
@@ -102,7 +110,7 @@ We can observe most passengers were in the 3rd class which is the most affordabl
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/5cb0d6b1-a1c1-4383-8a50-172a821a6b31)
 
 Regarding the amount shown on the graph, it is important to note that 80$ in 1912 is more or less equal to 2 500$ in 2023. Quite an expense.<br> 
-After taking a look at some important features. A question arises, do these attributes have much of an impact on survival? 
+After taking a look at some important features. A question arises, Do these attributes have much of an impact on survival? 
 
 Gender seems to have a detrimental impact on survival. 
 
@@ -155,7 +163,7 @@ To find the best profiles we will use the coefficient from the Regression Result
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/37feaac4-994b-4b6f-831c-d5556773c89c)
 
 The formula for linear regression is a useful tool to predict values using the data from the Regression Results table.<br>
-linear regression: Y=mX + b 
+Linear regression: Y=mX + b 
 
 This formula is needed to understand the relationship between coefficients (weights). This will help us compute a Final Survival Score for each profile.<br>
 The higher the score the greater chance the individual will have to survive. 
@@ -175,7 +183,7 @@ The two profiles named Worst Profile and Best Profile were conducted by the Exce
 
 ![image](https://github.com/Bruc3U/Titanic_analysis/assets/142362478/5f58a158-cb01-444c-979a-7c3564eafee3)
 
-For the worst profile, the port of departure number 3 was chosen, and the best profile chooses port number 1.  We can observe that a lower age and a higher class/ticket fare gives more chances of survival as stated earlier.
+For the worst profile, the port of departure number 3 was chosen, and the best profile chose port number 1.  We can observe that a lower age and a higher class/ticket fare give more chances of survival as stated earlier.
 On another note, the worst profile chooses to have 2 children and 2 parents, this proves the negative aspect of those features. 
 
 
