@@ -10,6 +10,8 @@
 - statsmodel
 - scikit-learn
 
+#[Dashboard](https://github.com/Bruc3U/Titanic_analysis/blob/main/dashboard_titanic_pdf.pdf)
+
 ## Objective
 
 Our goal is to use machine learning to identify predictors for survivability during the Titanic tragedy. 
