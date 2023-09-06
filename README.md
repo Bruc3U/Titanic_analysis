@@ -10,6 +10,7 @@
 - II/Data Wrangling
 - III/ Analysis
 - Conclusion
+- [Dashboard](https://github.com/Bruc3U/Titanic_analysis/blob/main/dashboard_titanic_pdf.pdf)
 
 
 # Python Libraries Used
