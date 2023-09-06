@@ -10,7 +10,7 @@
 - statsmodel
 - scikit-learn
 
-#[Dashboard](https://github.com/Bruc3U/Titanic_analysis/blob/main/dashboard_titanic_pdf.pdf)
+# [Dashboard](https://github.com/Bruc3U/Titanic_analysis/blob/main/dashboard_titanic_pdf.pdf)
 
 ## Objective
 
